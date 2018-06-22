@@ -31,7 +31,7 @@
         <p class="lead">Click the button below to deploy a <a href="https://ghost.org">Ghost</a> blog for free on your <a href="https://heroku.com">Heroku</a>&nbsp;account. You&nbsp;should be up and running in less&nbsp;than&nbsp;two&nbsp;minutes.</p>
 
         <p class="overlap">
-          <a href="https://heroku.com/deploy?template=https://github.com/cobyism/ghost-on-heroku" class="btn">
+          <a href="https://heroku.com/deploy?template=https://github.com/snathjr/ghost-on-heroku" class="btn">
             :sparkles: <strong>Deploy Ghost</strong> to Heroku :sparkles:
           </a>
         </p>
@@ -57,7 +57,7 @@
       <div class="unit one-third">
         <h2>Problems? :persevere:</h2>
         <p>For help setting up and using Ghost, visit <a href="http://support.ghost.org/">the official support website</a>.<p>
-        <p>For issues with the deployment process this project provides, please <a href="https://github.com/cobyism/ghost-on-heroku">open an issue on GitHub</a> if you run into trouble.</p>
+        <p>For issues with the deployment process this project provides, please <a href="https://github.com/snathjr/ghost-on-heroku">open an issue on GitHub</a> if you run into trouble.</p>
       </div>
     </div>
   </section>
@@ -68,29 +68,11 @@
         <p>
           Built with :sparkling_heart: by <a href="http://cobyism.com">@cobyism</a>.
         </p>
-        <a class="twitter-share-button" href="https://twitter.com/share"
-          data-text="I just deployed a @TryGhost blog to @Heroku for free using this:"
-          data-via="cobyism"
-          data-count="horizontal"
-          data-size="large">
-          Tweet</a>
-        <script>
-        window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
-        </script>
+        <p>
+          Added Cloudinary storage support :sparkles: by <a href="http://snathjr.github.io"><b>@snathjr</b></a>.
+        </p>
       </div>
     </div>
   </footer>
-
-  {% if site.safe %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-31312255-3', 'auto');
-      ga('send', 'pageview');
-    </script>
-  {% endif %}
-
 </body>
 </html>

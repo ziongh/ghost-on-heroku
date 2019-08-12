@@ -22,7 +22,7 @@ The latest release of Ghost is now supported! Changes include:
 
 The following video is a step by step tutorial:
 
-[![thumbnail](https://img.youtube.com/vi/cODvhXMHgYI/0.jpg)](https://www.youtube.com/watch?v=cODvhXMHgYI)
+[![thumbnail](https://img.youtube.com/vi/cODvhXMHgYI/0.jpg)](https://www.youtube.com/watch?v=cODvhXMHgYI) [![Greenkeeper badge](https://badges.greenkeeper.io/SNathJr/ghost-on-heroku.svg)](https://greenkeeper.io/)
 
 ### Things you should know
 
